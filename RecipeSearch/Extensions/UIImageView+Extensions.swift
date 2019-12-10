@@ -11,7 +11,6 @@ import UIKit
 // here we crate an extension on UIImageView to hand off getting a UIImage using
 // our URLSession wrapper class (NetworkHelper)
 
-var apiKey = "8a93a24326b003e1d598d05a7d5d98c8"
 
 extension UIImageView {
   func getImage(with urlString: String,
